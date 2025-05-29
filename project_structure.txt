@@ -1,0 +1,8 @@
+capsule_wardrobe_app/
+├── app.py
+├── saved_images/           # This folder will be created automatically if not exists
+├── services/
+│   ├── __init__.py
+│   ├── image_uploader.py   # Now responsible for saving images locally and returning local path
+│   ├── groq_vision.py
+│   └── outfit_generator.py
